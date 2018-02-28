@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<body>
+//using stringify to convert it back to json
+
+<h2>Create JSON string from a JavaScript object.</h2>
+
+<p id="demo"></p>
+
+<script>
+
+var obj = { "name":"Vikash", "age":22, "city":"Kolakta"};
+var myJSON = JSON.stringify(obj);
+document.getElementById("demo").innerHTML = myJSON;
+
+</script>
+
+</body>
+</html>

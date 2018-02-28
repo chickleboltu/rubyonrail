@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<p>Access a JavaScript object:</p>
+
+<p id="demo"></p>
+
+<script>
+
+var myObj, x;
+myObj = { "name":"Megha", "age":23, "city":"Kolkata" };
+x = myObj.name ;
+y = myObj.age ;
+document.getElementById("demo").innerHTML = x + "\n" + y;
+
+</script>
+
+</body>
+</html>

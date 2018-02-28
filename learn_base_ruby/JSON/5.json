@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<p>Modify a JavaScript object:</p>
+
+<p id="demo"></p>
+
+<script>
+
+var myObj, x;
+myObj = { "name":"Megha", "age":23, "city":"Kolkata" };
+myObj.name = "Vikash";
+myObj.age = 22;
+document.getElementById("demo").innerHTML = myObj.name + "\n" + myObj.age;
+
+</script>
+
+</body>
+</html>
